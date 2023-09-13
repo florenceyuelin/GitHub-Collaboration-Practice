@@ -1,0 +1,74 @@
+(base) yuelin@Yues-MacBook-Air-2 CSS % git clone 
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 10, done.
+remote: Counting objects: 100% (10/10), done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (10/10), done.
+(base) yuelin@Yues-MacBook-Air-2 CSS % cd 
+/Users/yuelin/Documents/GitHub/CSS/GitHub-Collaboration-Practice
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+checkout -b yuelin_branch
+Switched to a new branch 'yuelin_branch'
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % nano 
+/Users/yuelin/Documents/GitHub/CSS/GitHub-Collaboration-Practice/Group5_Project1.md
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git add *
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+status
+On branch yuelin_branch
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	modified:   Group5_Project1.md
+
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+commit -m "edit file"
+[yuelin_branch d22de30] edit file
+ Committer: Yue Lin <yuelin@Yues-MacBook-Air-2.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+remote add origin 
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+error: remote origin already exists.
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git push 
+--set-upstream origin yuelin_branch
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 351 bytes | 351.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'yuelin_branch' on GitHub by visiting:
+remote:      
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice/pull/new/yuelin_branch
+remote: 
+To https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+ * [new branch]      yuelin_branch -> yuelin_branch
+branch 'yuelin_branch' set up to track 'origin/yuelin_branch'.
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+checkout yuelin_branch
+Already on 'yuelin_branch'
+Your branch is up to date with 'origin/yuelin_branch'.
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % git 
+branch
+  main
+* yuelin_branch
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % nano 
+/Users/yuelin/Documents/GitHub/CSS/GitHub-Collaboration-Practice/Group5_Project1.md
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % nano
+(base) yuelin@Yues-MacBook-Air-2 GitHub-Collaboration-Practice % nano 
+yuelin_branch_commands.txt
+

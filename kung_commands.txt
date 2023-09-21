@@ -1,0 +1,9 @@
+git clone https://github.com/florenceyuelin/GitHub-Collaboration-Practice
+git checkout -b kung_branch
+nano Group5_Project1.md
+git status
+git add Group5_Project1.md
+git status
+git commit -m "edited Group5_Project1 with my program and research interests"
+git push
+

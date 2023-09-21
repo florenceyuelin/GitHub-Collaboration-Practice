@@ -1,0 +1,60 @@
+Last login: Thu Sep 21 10:09:45 on ttys001
+(base) jarett@Jaretts-MacBook-Air ~ % cd Project1
+cd: no such file or directory: Project1
+(base) jarett@Jaretts-MacBook-Air ~ % cd git
+(base) jarett@Jaretts-MacBook-Air git % cd Computational_Social_Science_Projects
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % ls
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % cd Project1
+(base) jarett@Jaretts-MacBook-Air Project1 % git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+(base) jarett@Jaretts-MacBook-Air Project1 % cd Computational_Social_Science_Projects
+cd: no such file or directory: Computational_Social_Science_Projects
+(base) jarett@Jaretts-MacBook-Air Project1 % nano myfile.text
+(base) jarett@Jaretts-MacBook-Air Project1 % cd..
+zsh: command not found: cd..
+(base) jarett@Jaretts-MacBook-Air Project1 % cd .. 
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % git add Project1
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % git commit m- "project 1 
+git commands text file"
+error: pathspec 'm-' did not match any file(s) known to git
+error: pathspec 'project 1 git commands text file' did not match any file(s) known to git
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % git add Project1
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % git commit -m "project1 git 
+commands text file"
+[main 116be18] project1 git commands text file
+ 1 file changed, 10 insertions(+)
+ create mode 100644 Project1/myfile.txt
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 460 bytes | 460.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/jrm2024/Computational_Social_Science_Projects.git
+   a6de80d..116be18  main -> main
+(base) jarett@Jaretts-MacBook-Air Computational_Social_Science_Projects % cd Project1
+(base) jarett@Jaretts-MacBook-Air Project1 % cd Project1 
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+cd: no such file or directory: 
+/Users/jarett/git/Computational_Social_Science_Projects/https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+(base) jarett@Jaretts-MacBook-Air Project1 % git clone 
+https://github.com/florenceyuelin/GitHub-Collaboration-Practice.git
+Cloning into 'GitHub-Collaboration-Practice'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (24/24), done.
+remote: Total 29 (delta 5), reused 10 (delta 2), pack-reused 0
+Receiving objects: 100% (29/29), 7.69 KiB | 3.84 MiB/s, done.
+Resolving deltas: 100% (5/5), done.
+(base) jarett@Jaretts-MacBook-Air Project1 % cd 
+/Users/jarett/git/Computational_Social_Science_Projects/Project1/GitHub-Collaboration-Practice
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % nano Group5_Project1.md
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % nano Group5_Project1.md
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % git add
+(base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % git commit m-"added commands 
+textfile and wrote Program and interests"
+base) jarett@Jaretts-MacBook-Air GitHub-Collaboration-Practice % git push
